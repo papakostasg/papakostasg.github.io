@@ -10,6 +10,8 @@ body {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
+    padding: 0px;
+    margin: 0px;
 }
 
 #picture {
@@ -25,9 +27,14 @@ body {
     font-size: 20px;
 }
 
-#info {
+#synopsis {
+    margin-left: 10%;
+}
+
+.info {
     text-align: center;
     font-size: 20px;
+    font-weight: normal;
 }
 
 .sections {
@@ -45,4 +52,9 @@ body {
 .italics {
     font-style: italic;
     text-decoration: underline;
+}
+
+.warning {
+    font-size: 30px;
+    font-weight: bolder;
 }
